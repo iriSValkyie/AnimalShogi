@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.cysharp.r3": {
-      "version": "1.2.6",
+      "version": "1.2.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -118,9 +118,9 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -170,20 +170,21 @@
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.observablecollections": {
-      "version": "2.2.0",
+      "version": "3.0.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "org.nuget.system.memory": "4.5.4"
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
       },
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "org.nuget.observablecollections.r3": {
-      "version": "2.2.0",
+      "version": "3.0.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "org.nuget.observablecollections": "2.2.0",
+        "org.nuget.observablecollections": "3.0.4",
         "org.nuget.r3": "1.0.0"
       },
       "url": "https://unitynuget-registry.azurewebsites.net"
@@ -236,7 +237,7 @@
     },
     "org.nuget.system.runtime.compilerservices.unsafe": {
       "version": "6.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://unitynuget-registry.azurewebsites.net"
